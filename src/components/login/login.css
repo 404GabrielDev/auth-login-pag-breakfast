@@ -1,0 +1,72 @@
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #fff;
+}
+
+.card-form {
+    text-align: center;
+    
+}
+
+
+.container-forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-forms p {
+    margin-top: 0.5rem;
+}
+
+.containerInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.container-inputEmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.container-inputEmail input {
+    width: 12rem;
+    height: 2rem;
+    border: none;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+
+.container-inputPassword {
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    flex-direction: column;
+}
+
+.container-inputPassword input {
+    width: 12rem;
+    height: 2rem;
+    border: none;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.card-form button {
+    width: 13rem;
+    height: 2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    border: none;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+}

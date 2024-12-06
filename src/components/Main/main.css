@@ -1,0 +1,95 @@
+.title-background {
+    position: absolute;
+    bottom: 1%;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+}
+
+.title-background h1 {
+    color: rgb(255, 94, 0);
+    font-family: 'Pattaya', sans-serif;
+}
+
+.title-background p {
+    font-size: 1.2rem;
+    border-bottom: 2px solid #f60;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title-cards {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Pattya', sans-serif;
+}
+
+/*Estilizando os Sliders*/
+
+.all-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #000;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Estilizando o Slider 1*/
+
+.swiper {
+    width: 50%;
+}
+
+.slider img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.container-slider {
+    display: flex;
+}
+
+.i-slider {
+    height: 500px;
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-image: url("../../assets/background/backgroundCake.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+/*---------------------*/
+
+
+/*Estilizando o Slider 2*/
+.container-slider2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.i-slider2 {
+    height: 500px;
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-image: url("../../assets/background/backgroundDrinks.webp");
+    background-size: cover;
+    background-position: center;
+}
+

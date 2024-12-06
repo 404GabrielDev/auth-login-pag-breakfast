@@ -1,0 +1,159 @@
+
+header {
+    color: #000;
+}
+
+
+.menu-mobile {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: #ff0000 1px 10px 15px;
+    padding: 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.login-link {
+    color: #006bc9;
+    text-decoration: none;
+    transition: color 0.5s ease, border-bottom 0.5s ease;
+}
+
+.login-link:hover {
+    color: #f60;
+}
+
+.home-link {
+    color: #007abc;
+    text-decoration: none;
+    transition: color 0.5s ease, border-bottom 0.5s ease;
+}
+
+.home-link:hover {
+    color: #f60;
+}
+
+.menu-mobile img {
+    cursor: pointer;
+}
+
+.container-mobile {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    z-index: 1;
+    font-family: 'Changa', sans-serif;
+}
+
+.container-mobile.open {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.header-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header-mobile img {
+    cursor: pointer;
+}
+
+.navbar-mobile {
+    margin-top: 2rem;
+}
+
+.navbar-mobile ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    list-style: none;
+    padding: 1rem;
+}
+
+.container-socialMedia {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.icons-socialMedia {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/*MENU DESKTOP*/
+
+.container-menuDesktop {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container-menuDesktop ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.container-menuDesktop li {
+    cursor: pointer;
+    transition: border 0.5s ease, border-radius 0.5s ease, padding 0.5s ease, background-color 0.5s ease, color 0.5s ease;
+}
+
+.container-menuDesktop li:hover {
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: #000;
+    background-color: #fff;
+}
+
+.container-menuDesktop button {
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    color: #f60;
+    width: 8rem;
+    height: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.container-menuDesktop button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+@media (min-width:620px) {
+    header {
+        color: #fff;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .container-mobile {
+        display: none;
+    }
+}
+
+@media (max-width:619px) {
+    .container-menuDesktop {
+        display: none;
+    }
+}
